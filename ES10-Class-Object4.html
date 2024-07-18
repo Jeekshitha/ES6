@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <h2>ES JS Constructor</h2>
+        <script>
+            class Person{
+                name;
+                age;
+                constructor(name,age){
+                    this.name=name;
+                    this.age=age;
+                }
+                display(){
+                    document.write("Name is "+this.name);
+                    document.write("<br>Age is "+this.age);
+                }
+            }
+            var mydet = new Person("jikki",21);
+            mydet.display();
+        </script>
+    </body>
+</html>
